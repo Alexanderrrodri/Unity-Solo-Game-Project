@@ -1,20 +1,58 @@
-Supported Platforms:
+Software Requirements Specification for "Project 4900" Video Game
 
-Windows (10 or higher)
-MacOS (10.12 Sierra or higher)
-Linux (Ubuntu 16.04 or higher)
-Browser (Playable on platforms like Itch.io)
-Minimum System Requirements:
+Table of Contents:
+1. Introduction
+2. Overall Descriptions
+3. System Feautures
 
-Processor: Dual-core CPU @ 2.0 GHz
-Memory: 4 GB RAM
-Graphics: Intel HD Graphics 4000 or equivalent
-DirectX: Version 11 (Windows)
-Storage: 1 GB available space
-Recommended System Requirements:
 
-Processor: Quad-core CPU @ 3.0 GHz
-Memory: 8 GB RAM
-Graphics: NVIDIA GeForce GTX 960 / AMD Radeon R9 380 or equivalent
-DirectX: Version 12 (Windows)
-Storage: 2 GB available space
+1. Introduction
+
+1.1 Purpose
+
+The purpose of the document is to provide a detailed overview of my "Project 4900" video game. It will outline the functional and non-functional requirements,
+overall description of the game, a detailed project structure. This document is intended for the users who want to play the game.
+
+1.2 Project Scope
+
+The "Project 4900" game aims to make a dynamic and fun 2D platformer for the users to enjoy. The game features a single player adventure experience that requires
+the users to go through levels filled with obstacles and enemies to face.
+
+2. Overall Descriptions
+
+2.1 Product Perspective
+
+
+
+2.2 Product Features
+
+*Keyboard controls
+*Mouse Controls
+*Sound Effects
+
+2.3 User Classes and Characteristics
+
+The primary users of the "Project 4900" game are individuals who enjoy 2D platformer games that can be played both casually and hardcore. The game is designed
+to be intuitive for users of all ages.
+
+2.4 Operating Environment
+
+The game is designed to run in any modern web browser (e.g, Chrome, Firefox, Safari, Edge) without the need for additional plugins or software installations.
+
+2.5 Design and Implementation Contraints
+
+*The game is developed using the Unity Game Engine, and C#.
+
+3. System Features
+
+3.1 User Interactions
+
+*Movement Controls: Users can move the player character left and right using the Arrow Keys. Users can use the Spacebar to jump over cliifs and walljump.
+Users can press the X button to dash and make the player character move faster (Can be used in the air).
+*Attack Controls: Users can make the player character attack enemies and objects using the X Key.
+*Menu Controls: Users can press the M Key to pause the game. Users can use the mouse to navigate through menus.
+
+3.2 Score System
+
+Users can collect collectables in levels and fight enemies to gain points in their score. At the end of the stage, their score will be recordered and will show
+your highest score that you have gotten in that particular stage. This would make players motivated to repeat certain stages to get a better score.
