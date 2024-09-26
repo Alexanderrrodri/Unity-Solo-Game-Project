@@ -1,58 +1,64 @@
 Software Requirements Specification for "Project 4900" Video Game
 
 Table of Contents:
-1. Introduction
-2. Overall Descriptions
-3. System Feautures
-
+Introduction
+Overall Descriptions
+System Features
 
 1. Introduction
 
 1.1 Purpose
 
-The purpose of the document is to provide a detailed overview of my "Project 4900" video game. It will outline the functional and non-functional requirements,
-overall description of the game, a detailed project structure. This document is intended for the users who want to play the game.
+The purpose of this document is to provide a detailed overview of the "Project 4900" video game. 
+It outlines the functional and nonfunctional requirements, overall description, and the project structure. 
+This document is intended for users who want to play the game and understand its design.
 
 1.2 Project Scope
 
-The "Project 4900" game aims to make a dynamic and fun 2D platformer for the users to enjoy. The game features a single player adventure experience that requires
-the users to go through levels filled with obstacles and enemies to face.
+The "Project 4900" game aims to offer an engaging 2D platformer experience. 
+It features a single-player adventure where users navigate through levels filled with obstacles and enemies.
 
 2. Overall Descriptions
 
 2.1 Product Perspective
 
-
+The game is designed as a standalone 2D platformer built using Unity and can be played across multiple platforms. 
+It offers cross-platform compatibility with Windows, Mac, Linux, and browsers such as Chrome, Firefox, Safari, and Edge via itch.io.
+The game is designed to run smoothly without requiring high-performance hardware, making it accessible for users on various devices. 
+Its simple yet challenging gameplay focuses on precise platforming and combat mechanics, inspired by classic action platformers.
 
 2.2 Product Features
 
-*Keyboard controls
-*Mouse Controls
-*Sound Effects
+Keyboard and Mouse Controls
+Sound Effects and Music
+Score and High Score Tracking
 
 2.3 User Classes and Characteristics
 
-The primary users of the "Project 4900" game are individuals who enjoy 2D platformer games that can be played both casually and hardcore. The game is designed
-to be intuitive for users of all ages.
+The primary users are individuals who enjoy 2D platformer games, whether for casual or more challenging play. 
+The game is designed to be intuitive for players of all skill levels and ages.
 
 2.4 Operating Environment
 
-The game is designed to run in any modern web browser (e.g, Chrome, Firefox, Safari, Edge) without the need for additional plugins or software installations.
+The game is built for:
 
-2.5 Design and Implementation Contraints
+Windows, Mac, Linux (via standalone applications)
+Modern web browsers (Chrome, Firefox, Safari, Edge) using itch.io without additional plugins.
 
-*The game is developed using the Unity Game Engine, and C#.
+2.5 Design and Implementation Constraints
+
+Developed using Unity Game Engine and C#.
+Browser performance may vary slightly based on the user's system and internet connection.
 
 3. System Features
 
 3.1 User Interactions
 
-*Movement Controls: Users can move the player character left and right using the Arrow Keys. Users can use the Spacebar to jump over cliifs and walljump.
-Users can press the X button to dash and make the player character move faster (Can be used in the air).
-*Attack Controls: Users can make the player character attack enemies and objects using the X Key.
-*Menu Controls: Users can press the M Key to pause the game. Users can use the mouse to navigate through menus.
+Movement Controls: Arrow keys to move, Spacebar to jump and wall-jump, X to dash.
+Attack Controls: X key to attack enemies and objects.
+Menu Controls: M key to pause the game, mouse for navigating menus.
 
 3.2 Score System
 
-Users can collect collectables in levels and fight enemies to gain points in their score. At the end of the stage, their score will be recordered and will show
-your highest score that you have gotten in that particular stage. This would make players motivated to repeat certain stages to get a better score.
+Collect collectables and defeat enemies to increase the score.
+At the end of each stage, the highest score is saved and displayed, motivating replayability for a better score.
