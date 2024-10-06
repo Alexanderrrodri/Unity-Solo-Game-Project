@@ -1,25 +1,23 @@
 Software Requirements Specification for "Project 4900" Video Game
 
 Table of Contents:
-Target
-Overall Descriptions
-System Features
+0. Target
+1. Project Overview
+2. Overall Descriptions
+3. System Features
 
-1. Target
-
-The game is a 2D platformer featuring a female warrior protagonist on a mission to save the world. Armed with a sword, the player can defeat monsters while utilizing impressive jumping abilities to traverse walls and leap across cliffs. The player’s health is represented by hearts, which deplete with enemy damage or environmental hazards like falling off cliffs. A timer adds pressure, and if either health or time runs out, the game ends with a "Game Over" screen.
-
-To assist the player, there are collectable hearts that restore health, and invincibility power-ups to temporarily bypass danger. The adventure starts on a world map, where players can navigate through different stages by walking to the designated icons and pressing 'Z' to enter.
-
+Target:
+The game is a 2D platformer featuring a female warrior protagonist on a mission to save the world from an invasion of monsters. 
+Armed with a sword, the player can defeat monsters while utilizing impressive jumping abilities to traverse walls and leap across cliffs through multiple different environments. 
+The player’s goal is to complete all levels and beat the main antagonist that caused the downfall of the warrior’s world. 
+To assist the player, there are collectable hearts that restore the player’s health, and invincibility power-ups to temporarily bypass danger. 
+The adventure starts on a world map, where players can navigate through different stages.
 Each level introduces unique environments and challenges:
-
-Level 1 (Cave): A straightforward platforming challenge featuring bats that swoop in to attack and skeletons that block the player's progress with shields, launching sword attacks from a distance.
-
-Level 2 (Forest): Players climb vines and avoid mushroom enemies hiding in the grass, along with goblins that attack quickly and evade player strikes.
-
-Level 3 (Dungeon): A more puzzle-oriented environment where players must break rocks to advance and face off against all enemy types, culminating in a boss battle.
-
+•	Level 1 (Cave): A straightforward platforming challenge that requires the player to jump over walls and avoid the bats/skeletons from halting your progress. The bat monster type can fly and swoop in to attack the player when they get close. The skeleton monster type can block the player's progress with shields, launching sword attacks from a distance at the player. 
+•	Level 2 (Forest): This level requires more complex forming and has to deal with climbing through vines to make progress. Players will need to avoid mushroom enemies hiding in the grass that attack you when you get close, along with goblins that attack quickly and evade player strikes.
+•	Level 3 (Dungeon): A more puzzle-oriented environment where players must break rocks to advance and face off against all enemy types, culminating in a boss battle. The player must wall jump, dodge, and use every ability to be able to complete this level and defeat it’s boss.
 The game's mechanics combine combat, platforming, and puzzle-solving, providing a balanced and engaging experience.
+
 
 1.1 Purpose
 
