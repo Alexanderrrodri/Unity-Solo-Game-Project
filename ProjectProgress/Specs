@@ -1,11 +1,25 @@
 Software Requirements Specification for "Project 4900" Video Game
 
 Table of Contents:
-Introduction
+Target
 Overall Descriptions
 System Features
 
-1. Introduction
+1. Target
+
+The game is a 2D platformer featuring a female warrior protagonist on a mission to save the world. Armed with a sword, the player can defeat monsters while utilizing impressive jumping abilities to traverse walls and leap across cliffs. The player’s health is represented by hearts, which deplete with enemy damage or environmental hazards like falling off cliffs. A timer adds pressure, and if either health or time runs out, the game ends with a "Game Over" screen.
+
+To assist the player, there are collectable hearts that restore health, and invincibility power-ups to temporarily bypass danger. The adventure starts on a world map, where players can navigate through different stages by walking to the designated icons and pressing 'Z' to enter.
+
+Each level introduces unique environments and challenges:
+
+Level 1 (Cave): A straightforward platforming challenge featuring bats that swoop in to attack and skeletons that block the player's progress with shields, launching sword attacks from a distance.
+
+Level 2 (Forest): Players climb vines and avoid mushroom enemies hiding in the grass, along with goblins that attack quickly and evade player strikes.
+
+Level 3 (Dungeon): A more puzzle-oriented environment where players must break rocks to advance and face off against all enemy types, culminating in a boss battle.
+
+The game's mechanics combine combat, platforming, and puzzle-solving, providing a balanced and engaging experience.
 
 1.1 Purpose
 
