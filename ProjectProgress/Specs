@@ -1,0 +1,76 @@
+Software Requirements Specification for "Project 4900" Video Game
+
+Table of Contents:
+0. Target
+1. Project Overview
+2. Overall Descriptions
+3. System Features
+
+Target:
+The game is a 2D platformer featuring a female warrior protagonist on a mission to save the world from an invasion of monsters. 
+Armed with a sword, the player can defeat monsters while utilizing impressive jumping abilities to traverse walls and leap across cliffs through multiple different environments. 
+The player’s goal is to complete all levels and beat the main antagonist that caused the downfall of the warrior’s world. 
+To assist the player, there are collectable hearts that restore the player’s health, and invincibility power-ups to temporarily bypass danger. 
+The adventure starts on a world map, where players can navigate through different stages.
+Each level introduces unique environments and challenges:
+•	Level 1 (Cave): A straightforward platforming challenge that requires the player to jump over walls and avoid the bats/skeletons from halting your progress. The bat monster type can fly and swoop in to attack the player when they get close. The skeleton monster type can block the player's progress with shields, launching sword attacks from a distance at the player. 
+•	Level 2 (Forest): This level requires more complex forming and has to deal with climbing through vines to make progress. Players will need to avoid mushroom enemies hiding in the grass that attack you when you get close, along with goblins that attack quickly and evade player strikes.
+•	Level 3 (Dungeon): A more puzzle-oriented environment where players must break rocks to advance and face off against all enemy types, culminating in a boss battle. The player must wall jump, dodge, and use every ability to be able to complete this level and defeat it’s boss.
+The game's mechanics combine combat, platforming, and puzzle-solving, providing a balanced and engaging experience.
+
+
+1.1 Purpose
+
+The purpose of this document is to provide a detailed overview of the "Project 4900" video game. 
+It outlines the functional and nonfunctional requirements, overall description, and the project structure. 
+This document is intended for users who want to play the game and understand its design.
+
+1.2 Project Scope
+
+The "Project 4900" game aims to offer an engaging 2D platformer experience. 
+It features a single-player adventure where users navigate through levels filled with obstacles and enemies.
+
+2. Overall Descriptions
+
+2.1 Product Perspective
+
+The game is designed as a standalone 2D platformer built using Unity and can be played across multiple platforms. 
+It offers cross-platform compatibility with Windows, Mac, Linux, and browsers such as Chrome, Firefox, Safari, and Edge via itch.io.
+The game is designed to run smoothly without requiring high-performance hardware, making it accessible for users on various devices. 
+Its simple yet challenging gameplay focuses on precise platforming and combat mechanics, inspired by classic action platformers.
+
+2.2 Product Features
+
+Keyboard and Mouse Controls
+Sound Effects and Music
+Score and High Score Tracking
+
+2.3 User Classes and Characteristics
+
+The primary users are individuals who enjoy 2D platformer games, whether for casual or more challenging play. 
+The game is designed to be intuitive for players of all skill levels and ages.
+
+2.4 Operating Environment
+
+The game is built for:
+
+Windows, Mac, Linux (via standalone applications)
+Modern web browsers (Chrome, Firefox, Safari, Edge) using itch.io without additional plugins.
+
+2.5 Design and Implementation Constraints
+
+Developed using Unity Game Engine and C#.
+Browser performance may vary slightly based on the user's system and internet connection.
+
+3. System Features
+
+3.1 User Interactions
+
+Movement Controls: Arrow keys to move, Spacebar to jump and wall-jump, X to dash.
+Attack Controls: X key to attack enemies and objects.
+Menu Controls: M key to pause the game, mouse for navigating menus.
+
+3.2 Score System
+
+Collect collectables and defeat enemies to increase the score.
+At the end of each stage, the highest score is saved and displayed, motivating replayability for a better score.
