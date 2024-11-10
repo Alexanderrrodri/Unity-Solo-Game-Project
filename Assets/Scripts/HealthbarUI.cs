@@ -21,7 +21,7 @@ public class HealthBarUI : MonoBehaviour
     {
         // Initialize the health bar states
         healthbarTotal.fillAmount = 0.298f;   // Set to the visual amount representing 3 black hearts
-        healthbarCurrent.fillAmount = 0.298f; // Set to match the starting max health of 3 red hearts
+        healthbarCurrent.fillAmount = 0.498f; // Set to match the starting max health of 3 red hearts
     }
 
     private void UpdateHealthBar()
@@ -31,7 +31,7 @@ public class HealthBarUI : MonoBehaviour
         int maxHealth = playerHealth.GetMaxHealth();
 
         // Calculate the fill amount based on current health and max health ratio
-        float fillAmount = 0.298f * ((float)currentHealth / maxHealth);
+        float fillAmount = 0.498f * ((float)currentHealth / maxHealth);
 
         // Update the fill amount of the current health bar
         healthbarCurrent.fillAmount = fillAmount;

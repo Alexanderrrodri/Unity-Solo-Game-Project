@@ -4,13 +4,13 @@ using UnityEngine;
 
 public class CameraController : MonoBehaviour
 {
-    //Only follow Room
+    // Only follow Room
     [SerializeField] private float speed;
     private float currentPosX;
     private float currentPosY;
     private Vector3 velocity = Vector3.zero;
 
-    //Following the Player
+    // Following the Player
     [SerializeField] private Transform player;
     [SerializeField] private float aheadDistance;
     [SerializeField] private float cameraSpeed;
@@ -18,16 +18,16 @@ public class CameraController : MonoBehaviour
 
     private void Update()
     {
-       //transform.position = Vector3.SmoothDamp(transform.position, new Vector3(currentPosX, transform.PosY, transform.position.z), ref velocity, speed * Time.deltaTime);
+        // Follow player on both X and Y axes
+        transform.position = new Vector3(player.position.x, player.position.y, transform.position.z);
 
-       //Following Player
-       transform.position = new Vector3(player.position.x, transform.position.y, transform.position.z);
-       lookAhead = Mathf.Lerp(lookAhead, (aheadDistance * player.localScale.x), Time.deltaTime * cameraSpeed);
+        // Calculate horizontal camera movement based on player's direction
+        lookAhead = Mathf.Lerp(lookAhead, (aheadDistance * player.localScale.x), Time.deltaTime * cameraSpeed);
     }
 
     public void MoveToNewRoom(Transform _newRoom)
     {
-         currentPosX = _newRoom.position.x;
-         currentPosY = _newRoom.position.y + 0.53f;
+        currentPosX = _newRoom.position.x;
+        currentPosY = _newRoom.position.y + 0.53f;
     }
 }

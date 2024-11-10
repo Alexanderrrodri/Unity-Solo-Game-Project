@@ -14,8 +14,10 @@ public class PlayerHealth : MonoBehaviour
     private Rigidbody2D rb;
     private Animator anim;
 
-    // Declare an event for health changes
+    // Declare an event for health changes and game over
     public event Action OnHealthChanged;
+    public event Action OnPlayerDeath;  // New event for when the player dies
+
 
     private void Awake()
     {
@@ -68,6 +70,14 @@ public class PlayerHealth : MonoBehaviour
         }
     }
 
+    public void ForceDeath()
+    {
+        if (isDead) return; // Prevent death handling from triggering again
+        currentHealth = 0;  // Set health to 0
+        OnHealthChanged?.Invoke(); // Trigger health update
+        Die();  // Trigger death sequence
+    }
+
     public int GetCurrentHealth()
     {
         return currentHealth;
@@ -109,7 +119,8 @@ public class PlayerHealth : MonoBehaviour
             GetComponent<MovementPlayer>().DisableMovement();
             anim.SetTrigger("die");
         }
-
+        // Trigger the Game Over screen
+        OnPlayerDeath?.Invoke();
     }
 
     // Method to restore health and trigger health update
@@ -122,5 +133,10 @@ public class PlayerHealth : MonoBehaviour
     public bool IsDead()
     {
         return isDead;
+    }
+
+    public void SetInvincible(bool value)
+    {
+       isInvincible = value;
     }
 }

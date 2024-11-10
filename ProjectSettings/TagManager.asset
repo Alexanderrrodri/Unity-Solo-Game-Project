@@ -8,6 +8,9 @@ TagManager:
   - Enemy
   - EnemyHitbox
   - Level1Trigger
+  - Ladder
+  - Level2Trigger
+  - Level3Trigger
   layers:
   - Default
   - TransparentFX
@@ -19,7 +22,7 @@ TagManager:
   - Wall
   - platformLayer
   - EnemyAttack
-  - 
+  - ladderLayer
   - 
   - 
   - 

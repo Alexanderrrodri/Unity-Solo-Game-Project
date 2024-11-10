@@ -8,6 +8,6 @@ public class NewGameSelect : MonoBehaviour
     public void StartNewGame()
     {
         // Load the Level1 scene
-        SceneManager.LoadScene("Level1");
+        SceneManager.LoadScene("WorldMap");
     }
 }

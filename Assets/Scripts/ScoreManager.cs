@@ -6,7 +6,7 @@ using UnityEngine.UI; // For accessing UI components
 public class ScoreManager : MonoBehaviour
 {
     public TextMeshProUGUI scoreText;
-    
+   
     private int score = 0;  // Initial score
 
     // Start is called before the first frame update
@@ -26,5 +26,11 @@ public class ScoreManager : MonoBehaviour
     void UpdateScoreText()
     {
         scoreText.text = "Score: " + score.ToString();
+    }
+
+    // New method to get the current score
+    public int GetScore()
+    {
+        return score;
     }
 }

@@ -14,4 +14,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Levels/WorldMap.unity
     guid: f39090647ec88054cbc4dd2c50eb6457
+  - enabled: 1
+    path: Assets/Levels/Level2.unity
+    guid: 009a730efae5bf94084d6e1afcf57f31
+  - enabled: 1
+    path: Assets/Levels/Level3.unity
+    guid: 9c3b776e9693b4c4abd4a2490c196e30
   m_configObjects: {}

@@ -76,6 +76,18 @@ public class WorldMapController : MonoBehaviour
             levelToLoad = "Level1"; // Set the level to load
             canEnterScene = true;
         }
+        if (collision.CompareTag("Level2Trigger")) // For "Level1"
+        {
+            levelToLoad = "Level2"; // Set the level to load
+            canEnterScene = true;
+        }
+        if (collision.CompareTag("Level3Trigger")) // For "Level1"
+        {
+            levelToLoad = "Level3"; // Set the level to load
+            canEnterScene = true;
+        }
+
+
     }
 
     // This gets called when the player leaves a level's trigger zone
@@ -85,12 +97,22 @@ public class WorldMapController : MonoBehaviour
         {
             canEnterScene = false; // Disable the ability to enter the scene
         }
+        if (collision.CompareTag("Level2Trigger"))
+        {
+            canEnterScene = false; // Disable the ability to enter the scene
+        }
+        if (collision.CompareTag("Level3Trigger"))
+        {
+            canEnterScene = false; // Disable the ability to enter the scene
+        }
+
+
     }
 
     // This method will be called via an animation event at the end of the "Enter" animation
     public void OnEnterAnimationComplete()
     {
-        // Load the specified scene (in this case "Level1")
+        // Load the specified scene
         SceneManager.LoadScene(levelToLoad);
     }
 }
