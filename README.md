@@ -1,4 +1,4 @@
-Welcome to the repository for my 2D platformer game, built using the Unity engine. This repository contains all the assets, scripts, and documentation for the development of the game.
+Welcome to the repository for my 2D platformer game, built using the Unity engine. This repository contains all the assets, scripts, and documentation for the development of the game. To play the game, go to this website linked here: https://alexanderrodri.itch.io/warrior-princess
 
 Repository Contents
 Assets Folder: This is the main folder where all game development occurs. It includes:
